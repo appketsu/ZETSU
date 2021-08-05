@@ -11,7 +11,7 @@
       "moduleType": "Image",
       "baseURL": "",
       "moduleDeveloperSite": "https://appketsu.github.io/ZETSU/addModule",
-      "UpdateSite": "https://appketsu.github.io/ZETSU/updatedModule.json",
+      "UpdateSite": "https://raw.githubusercontent.com/appketsu/ZETSU/main/updatedModule.json",
       "preferedServer": "",
       "preferedDownloadServer": "",
       "blackListed": [
