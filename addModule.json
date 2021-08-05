@@ -10,8 +10,8 @@
       "moduleLenguage": "ENG",
       "moduleType": "Image",
       "baseURL": "",
-      "moduleDeveloperSite": "https://appketsu.github.io/KETSU-Setup/updateModule",
-      "UpdateSite": "https://appketsu.github.io/KETSU-Setup/updateModule.json",
+      "moduleDeveloperSite": "https://appketsu.github.io/ZETSU/addModule",
+      "UpdateSite": "https://raw.githubusercontent.com/appketsu/ZETSU/main/updatedModule.json",
       "preferedServer": "",
       "preferedDownloadServer": "",
       "blackListed": [
