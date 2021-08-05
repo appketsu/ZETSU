@@ -1,0 +1,593 @@
+{
+    "moduleInfo": {
+      "moduleName": "Example Module",
+      "moduleInitials": "",
+      "moduleDesc": "This is an example module, this module doesnt´do anything.",
+      "developer": "Orion",
+      "moduleID": "472374377473773",
+      "moduleImage": "https://cdn.discordapp.com/avatars/489120264613789696/96da0eb8280fe7d16635f56f2577c415.png?size=256",
+      "moduleVersion": 1.0,
+      "moduleLenguage": "ENG",
+      "moduleType": "Image",
+      "baseURL": "",
+      "moduleDeveloperSite": "https://appketsu.github.io/KETSU-Setup/updateModule",
+      "UpdateSite": "https://appketsu.github.io/KETSU-Setup/updateModule.json",
+      "preferedServer": "",
+      "preferedDownloadServer": "",
+      "blackListed": [
+        ""
+      ]
+    },
+    "global": {
+      "variables": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "cookies": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "headers": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ]
+    },
+    "mainPage": [
+      {
+        "request": {
+          "url": "https://www.google.com/",
+          "method": "get",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": [
+          {
+            "cellDesing": "CELLHelperText",
+            "orientation": "vertical",
+            "defaultLayout": "wideFull",
+            "paging": "",
+            "section": {
+              "sectionName": "",
+              "separator": false
+            },
+            "layout": null,
+            "data": [
+              {
+                "image": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ],
+                  "httpBody": null
+                },
+                "title": "This is an example module. It doesnt do anything!\n\nKETSU doesn´t offer any modules, go look for modules somewhere else.",
+                "description": "",
+                "field1": "",
+                "field2": "",
+                "field3": "",
+                "field4": "",
+                "moduleID": "2384029348",
+                "isChapter": false,
+                "link": {
+                  "url": "empty",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "search": [
+      {
+        "request": {
+          "url": "",
+          "method": "post",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": ""
+        },
+        "separator": "+",
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": [
+          {
+            "cellDesing": "normal1",
+            "orientation": "vertical",
+            "defaultLayout": "wide",
+            "paging": "",
+            "section": {
+              "sectionName": "",
+              "separator": false
+            },
+            "layout": {
+              "insets": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "visibleCellsWidthS": 2,
+              "visibleCellsWidthM": 2,
+              "visibleCellsWidthL": 2,
+              "visibleCellsHeight": 2,
+              "heightForVisibleCells": 400,
+              "cellSize": {
+                "width": 300,
+                "height": 300
+              },
+              "ratio": {
+                "inRelation": "width",
+                "number1": 1,
+                "number2": 2
+              },
+              "constant": {
+                "width": 1,
+                "height": 2
+              },
+              "horizontalSpacing": 0,
+              "verticalSpacing": 0
+            },
+            "data": [
+              {
+                "image": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ],
+                  "httpBody": null
+                },
+                "title": "",
+                "description": "",
+                "field1": "",
+                "field2": "",
+                "field3": "",
+                "field4": "",
+                "moduleID": "2384029348",
+                "isChapter": false,
+                "link": {
+                  "url": "empty",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "info": [
+      {
+        "request": {
+          "url": "empty",
+          "method": "get",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": " "
+        },
+        "output": {
+          "image": {
+            "url": "",
+            "method": "get",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "httpBody": null
+          },
+          "link": {
+            "url": "",
+            "method": "get",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "httpBody": null
+          },
+          "title": "",
+          "description": "",
+          "moduleID": "234234823",
+          "genres": [
+            ""
+          ],
+          "field1": "",
+          "field2": "",
+          "field3": "",
+          "field4": "",
+          "chapters": [
+            {
+              "chapName": "",
+              "openInWebView": false,
+              "link": {
+                "url": "empty",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "request": {
+          "url": "empty",
+          "method": "get",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": false,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": {
+          "moduleID": "234234823",
+          "videos": {
+            "needsResolver": [
+              {
+                "resolverIdentifier": "",
+                "link": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ],
+            "rawVideo": [
+              {
+                "video": [
+                  {
+                    "videoQuality": "720",
+                    "videoLink": {
+                      "url": "",
+                      "method": "get",
+                      "headers": [
+                        {
+                          "key": "key",
+                          "value": "value"
+                        }
+                      ],
+                      "httpBody": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            }
+          ],
+          "text": {
+            "text": ""
+          }
+        }
+      }
+    ],
+    "moduleResolvers": [
+      {
+        "resolverInfo": {
+          "resolverName": "UM",
+          "nameMatches": [
+            "UM"
+          ],
+          "developer": "Uknown",
+          "moduleID": "234234823",
+          "resolverVersion": 1,
+          "baseURL": ""
+        },
+        "resolver": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": false,
+              "loadInWebView": false,
+              "javaScript": ""
+            },
+            "output": {
+              "moduleID": "234234823",
+              "video": [
+                {
+                  "videoQuality": "720",
+                  "videoLink": {
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                    "method": "get",
+                    "headers": [
+                      {
+                        "key": "key",
+                        "value": "value"
+                      }
+                    ],
+                    "httpBody": null
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "responseCodeFunctions": [
+      {
+        "code": 0,
+        "msgTitle": "",
+        "msgBody": "",
+        "type": "normal",
+        "functions": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": true,
+              "loadInWebView": false,
+              "javaScript": ""
+            }
+          }
+        ]
+      }
+    ],
+    "helperFunctions": [
+      {
+        "functionName": "example",
+        "msgTitle": "",
+        "msgBody": "",
+        "type": "normal",
+        "functions": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": true,
+              "loadInWebView": false,
+              "javaScript": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
