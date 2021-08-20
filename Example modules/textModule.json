@@ -1,0 +1,684 @@
+{
+    "moduleInfo": {
+      "moduleName": "Text Module",
+      "moduleInitials": "",
+      "moduleDesc": "This module allows you to test the Text reader",
+      "developer": "dev",
+      "moduleID": "23485773723",
+      "moduleImage": "https://image.flaticon.com/icons/png/512/32/32329.png",
+      "moduleVersion": 1,
+      "moduleLenguage": "ENG",
+      "moduleType": "Text",
+
+      "baseURL": "",
+      "moduleDeveloperSite": "https://appketsu.github.io/KETSU-Setup/example%20modules",
+      "UpdateSite": "",
+      "preferedServer": "",
+      "preferedDownloadServer": "",
+      "blackListed": [
+        ""
+      ]
+    },
+    "global": {
+      "variables": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "cookies": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "headers": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ]
+    },
+    "mainPage": [
+      {
+        "request": {
+          "url": "https://google.com/",
+          "method": "get",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": [
+          {
+            "cellDesing": "wide7",
+            "orientation": "vertical",
+            "defaultLayout": "wideFull",
+            "paging": "",
+            "section": {
+              "sectionName": "Text Module results",
+              "separator": true
+            },
+            "layout": null,
+            "data": [
+              {
+                "image": {
+                  "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ],
+                  "httpBody": null
+                },
+                "title": "Example Text result",
+                "description": "",
+                "field1": "Example Text result",
+                "field2": "",
+                "field3": "",
+                "field4": "",
+                "moduleID": "2384029348",
+                "isChapter": false,
+                "link": {
+                  "url": "https://google.com/?text=",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "search": [
+      {
+        "request": {
+          "url": "https://google.com/",
+          "method": "get",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "httpBody": null
+        },
+        "separator": "+",
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": [
+          {
+            "cellDesing": "wide7",
+            "orientation": "vertical",
+            "defaultLayout": "wideFull",
+            "paging": "",
+            "section": {
+              "sectionName": "",
+              "separator": false
+            },
+            "layout": null,
+            "data": [
+              {
+                "image": {
+                  "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ],
+                  "httpBody": null
+                },
+                "title": "Example Text result",
+                "description": "",
+                "field1": "example Text result",
+                "field2": "",
+                "field3": "",
+                "field4": "",
+                "moduleID": "2384029348",
+                "isChapter": false,
+                "link": {
+                  "url": "https://google.com/?text=",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "info": [
+      {
+        "request": {
+          "url": "empty",
+          "method": "get",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": {
+          "image": {
+            "url": "",
+            "method": "get",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "httpBody": null
+          },
+          "link": {
+            "url": "https://google.com/?text=",
+            "method": "get",
+            "headers": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ],
+            "httpBody": null
+          },
+          "title": "Title",
+          "description": "description",
+          "moduleID": "",
+          "genres": [
+            "test",
+            "test",
+            "test"
+          ],
+          "field1": "field1",
+          "field2": "field2",
+          "field3": "field3",
+          "field4": "field4",
+          "chapters": [
+            {
+              "chapName": "Example Text",
+              "openInWebView": false,
+              "link": {
+                "url": "https://google.com/",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "request": {
+          "url": "empty",
+          "method": "get",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": ""
+        },
+        "output": {
+          "moduleID": "234234823",
+          "videos": {
+            "needsResolver": [
+              {
+                "resolverIdentifier": "",
+                "link": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ],
+            "rawVideo": [
+              {
+                "video": [
+                  {
+                    "videoQuality": "720",
+                    "videoLink": {
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                      "method": "get",
+                      "headers": [
+                        {
+                          "key": "key",
+                          "value": "value"
+                        }
+                      ],
+                      "httpBody": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "url": "https://image.shutterstock.com/image-vector/example-signlabel-features-speech-bubble-260nw-1223219848.jpg",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            {
+                "url": "https://osl.ugr.es/CTAN/macros/latex/contrib/incgraph/example.jpg",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              },
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Example_image.png",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+          ],
+          "text": {
+            "text": "Translator: EndlessFantasy Translation Editor: EndlessFantasy TranslationDawn began to brighten and a marble white expanse gradually permeated the sky, ushering in a new daybreak .At this time, in Shangdu’s inner ring where land was precious, there was a three-hundred-square-meter mansion, from which a faint snoring sound constantly rang out .The interior design of the room was of a classical European aesthetic but the messy clothes around the room, the beer bottles scattered everywhere, and the overturned trash cans and ashtrays, revealed the owner’s sloppiness .Upon the luxurious Paris Dream bed, a man, around thirty years of age, was sleeping soundly .A trace of heroism from his youth could still be discerned on his face but the gradual weight gain of middle-age had pushed this heroism to the brink of vanishing .Modern internet lingo would describe him as “fatty” .This man was named Zhan Fei . Seven or eight years back, he relied on YY to make his fortune and established his union four years ago, signing on hundreds of anchors from different platforms . Now, he earned most of his wealth through live broadcasting .However, this was only his surface identity .Zhan Fei was secretly a hacker as well . When he was young, he had dropped out of school because he heard that there was a promising future in the computer industry . Therefore, he learned computer programming and later became enchanted by the unrestrained freedom of the internet .With this basic foundation of knowledge, Zhan Fei started to access the dark web, plunging directly into the evilest forbidden area online, that was even unrestricted by law .4As time passed, Zhan Fei amassed many skills: invading, cracking, compiling, decompiling, and so on . When he was sixteen, he even created a highly lethal computer worm by himself, earning hundreds of thousands of U . S . dollars .Even today, he still lurked in the shadows of the internet . He was like an assassin . In this world, no one knew his true identity .However, this could change today .“Beep beep beep…”Zhan Fei, who had fallen asleep not long ago, was suddenly startled awake by a peculiar alarm .It sounded like the dulcet tones of a music box . The entire song was composed of a crisp melody, without any accompaniment or harmony . This music was light and pure .Nevertheless, to someone who was awakened from sleep, even the most melodious tune would sound like noise pollution .“D*mn it…”Zhan Fei mumbled hoarsely to himself . He snatched up his phone by the bed, then stared blankly, lost for words .When he turned on the screen of his phone, the alarm stopped as well .His phone indicated that his mailbox had received an anonymous email .Although Zhan Fei was close to being middle-aged, he was still very cautious thanks to his frequent trips to the dark web . When he saw this notification, he immediately sensed that something was wrong .This was because he had never set a 7 A . M . alarm nor had he selected this alarm tone that he had never heard before .Moreover, this mailbox was the one he had used with his dark web’s identity . In this world, there were fewer than ten people who knew about this email address .“Does my phone have a virus?”Zhan Fei frowned . His vigilant hacker’s instincts prevented him from opening the email . Instead, he got up with a grunt and walked to the computer with his phone .He fished around for a USB cable, then connected his phone to the computer . Only then did he download the compressed package on his computer that had been well fortified .Meanwhile, he also started up an Android emulator, preparing to open this unknown email on his computer .After he unzipped the file, he found that there were three software installation packages .“Little X Translation Assistant? What the hell is this?”Zhan Fei was rather taken aback and skimmed over the introduction below . “Software that translates webpages in foreign languages? But what does that have to do with me?”1Nonetheless, considering that it was sent from the dark web after all, Zhan Fei made the necessary preparations before installing the program in the Android emulator .The icon of this program was a cartoon image . In essence, it was a large X with two eyes, just like a cartoon .Zhan Fei double-clicked on the icon . Instantly, the emulator’s screen was covered by a transparent film while a window popped out from the software .“Chinese system detected . Automatically translate all foreign languages into Chinese?”Zhan Fei thought for a second, then clicked “Yes” .After that, there was nothing else .It seemed that the software would run in the background automatically . Other than that, nothing else changed .“That’s all?”Zhan Fei was flabbergasted . He stared at the lower right corner of his screen disbelievingly but there was no message that some unknown virus had been detected . This installation package seemed to be clean, without any issues .However, Zhan Fei soon gathered himself . After some thinking, he tried opening a foreign language webpage but the moment it appeared, he saw that this website, which was supposedly written in a foreign language, was in Chinese as well?“I haven’t visited this page for a while . Did this website develop a Chinese version?”Zhan Fei was rather bewildered . Still, he exited this page and opened another well-known webpage written in a foreign language .However, the shocking thing was that this webpage also displayed actual Chinese characters .“This…”By this point, Zhan Fei had finally realized something was off .“That’s impossible . How can a software change the entire webpage?”3After puzzling over it, Zhan Fei shook his head quickly . “No, it’s not the webpage that has changed . Does it only change the webpages I’ve opened?”With this in mind, Zhan Fei went to the system settings of the emulator and forcibly stopped Little X Translation Assistant from running . Then, he clicked on that foreign-language website again .He was right . The English webpage remained in English . This website had not set up a Chinese page for users in Mainland China .“So, that’s it!”At this moment, Zhan Fei had a realization at last . However, he started frowning again . Next, he immediately opened the search engine and searched for “Little X Translation Assistant” .There was nothing online .“This means that this is an application that hasn’t been officially launched?”Now, Zhan Fei finally somewhat understood what was going on .He could not help feeling excited . Though he did not know about the translation market, he knew that Baidu Translator had never been able to translate between English and Chinese so perfectly .This technology was far beyond any translation software on the market .“But why was it sent to me?”“Beep beep beep…”Before he could finish speaking, Zhan Fei’s phone suddenly rang again .This time was different than before . This was an unknown phone call .The incoming call did not display any number, only the words “Unknown Caller” .Zhan Fei was silent for a moment . This could only mean that the base station nearby had been hacked by the caller .The sender of the email was contacting him .Although Zhan Fei felt a little flustered by this, he got a grip on himself at once . As a hacker, the most important thing to do was remain calm .If he could not even keep a cool head, then he could never have become a hacker .Moreover, was the other person going to such lengths merely to show off and while they were at it, perhaps send Zhan Fei to prison?Chances of that were very slim . This person had probably just got a hold of Zhan Fei’s secrets and wanted to blackmail him .Although the other person had the upper ground for now, Zhan Fei might still have an opportunity to retaliate once they had established contact .Having considered this, Zhan Fei made up his mind . He lifted his hand and gently accepted the call .The moment the call was connected, a babyish voice rang out from the phone .“My friend, have you heard of Little X?”2"
+          }
+        }
+      },
+      {
+        "request": {
+          "url": "empty",
+          "method": "get",
+          "headers": [
+            {
+              "key": "key",
+              "value": "value"
+            }
+          ],
+          "httpBody": null
+        },
+        "extra": {
+          "commands": [
+            {
+              "commandName": "",
+              "params": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            }
+          ],
+          "extraInfo": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        },
+        "javascriptConfig": {
+          "removeJavascript": true,
+          "loadInWebView": false,
+          "javaScript": " "
+        },
+        "output": {
+          "videos": {
+            "needsResolver": [
+              {
+                "resolverIdentifier": "",
+                "link": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
+                    {
+                      "key": "key",
+                      "value": "value"
+                    }
+                  ],
+                  "httpBody": null
+                }
+              }
+            ],
+            "rawVideo": [
+              {
+                "video": [
+                  {
+                    "videoQuality": "720",
+                    "videoLink": {
+                      "url": "",
+                      "method": "get",
+                      "headers": [
+                        {
+                          "key": "key",
+                          "value": "value"
+                        }
+                      ],
+                      "httpBody": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "images": [
+            {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            }
+          ],
+          "text": {
+            "text": ""
+          }
+        }
+      }
+    ],
+    "moduleResolvers": [
+      {
+        "resolverInfo": {
+          "resolverName": "",
+          "nameMatches": [
+            ""
+          ],
+          "developer": "",
+          "moduleID": "",
+          "resolverVersion": 1,
+          "baseURL": ""
+        },
+        "resolver": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": false,
+              "loadInWebView": false,
+              "javaScript": ""
+            },
+            "output": {
+              "moduleID": "234234823",
+              "video": [
+                {
+                  "videoQuality": "720",
+                  "videoLink": {
+                    "url": "",
+                    "method": "get",
+                    "headers": [
+                      {
+                        "key": "key",
+                        "value": "value"
+                      }
+                    ],
+                    "httpBody": null
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "responseCodeFunctions": [
+      {
+        "code": 0,
+        "msgTitle": "",
+        "msgBody": "",
+        "type": "normal",
+        "functions": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": true,
+              "loadInWebView": false,
+              "javaScript": ""
+            }
+          }
+        ]
+      }
+    ],
+    "helperFunctions": [
+      {
+        "functionName": "example",
+        "msgTitle": "",
+        "msgBody": "",
+        "type": "normal",
+        "functions": [
+          {
+            "request": {
+              "url": "empty",
+              "method": "get",
+              "headers": [
+                {
+                  "key": "key",
+                  "value": "value"
+                }
+              ],
+              "httpBody": null
+            },
+            "extra": {
+              "commands": [
+                {
+                  "commandName": "",
+                  "params": [
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "extraInfo": [
+                {
+                  "key": "",
+                  "value": ""
+                }
+              ]
+            },
+            "javascriptConfig": {
+              "removeJavascript": true,
+              "loadInWebView": false,
+              "javaScript": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
