@@ -299,6 +299,21 @@
                 ],
                 "httpBody": null
               }
+            },
+                   {
+              "chapName": "Example Text 2",
+              "openInWebView": false,
+              "link": {
+                "url": "https://google.com/",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
             }
           ]
         }
