@@ -1,410 +1,114 @@
 {
-    "moduleInfo": {
-      "moduleName": "Images Module",
-      "moduleInitials": "",
-      "moduleDesc": "This module allows you to test the image viewer/reader",
-      "developer": "dev",
-      "moduleID": "9888828348382843",
-      "moduleImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png",
-      "moduleVersion": 1,
-      "moduleLenguage": "ENG",
-      "moduleType": "Image",
-      "baseURL": "",
-      "moduleDeveloperSite": "https://appketsu.github.io/ZETSU/exampleModules",
-      "UpdateSite": "",
-      "preferedServer": "",
-      "preferedDownloadServer": "",
-      "blackListed": [
-        ""
-      ]
-    },
-    "global": {
-      "variables": [
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
-      "cookies": [
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
-      "headers": [
-        {
-          "key": "",
-          "value": ""
-        }
-      ]
-    },
-    "mainPage": [
+  "moduleInfo": {
+    "moduleName": "Images Module",
+    "moduleInitials": "",
+    "moduleDesc": "This module allows you to test the image viewer/reader",
+    "developer": "dev",
+    "moduleID": "9888828348382843",
+    "moduleImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png",
+    "moduleVersion": 1,
+    "moduleLenguage": "ENG",
+    "moduleType": "Image",
+    "baseURL": "",
+    "moduleDeveloperSite": "https://appketsu.github.io/ZETSU/exampleModules",
+    "UpdateSite": "",
+    "preferedServer": "",
+    "preferedDownloadServer": "",
+    "blackListed": [
+      ""
+    ]
+  },
+  "global": {
+    "variables": [
       {
-        "request": {
-          "url": "https://google.com/",
-          "method": "get",
-          "headers": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ],
-          "httpBody": null
-        },
-        "extra": {
-          "commands": [
-            {
-              "commandName": "",
-              "params": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "extraInfo": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ]
-        },
-        "javascriptConfig": {
-          "removeJavascript": true,
-          "loadInWebView": false,
-          "javaScript": ""
-        },
-        "output": [
-          {
-            "cellDesing": "wide7",
-            "orientation": "vertical",
-            "defaultLayout": "wideFull",
-            "paging": "",
-            "section": {
-              "sectionName": "Images Module results",
-              "separator": true
-            },
-            "layout": null,
-            "data": [
-              {
-                "image": {
-                  "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "",
-                      "value": ""
-                    }
-                  ],
-                  "httpBody": null
-                },
-                "title": "Example Image result",
-                "description": "",
-                "field1": "Example Image result",
-                "field2": "",
-                "field3": "",
-                "field4": "",
-                "moduleID": "2384029348",
-                "isChapter": false,
-                "link": {
-                  "url": "https://google.com/?image=",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "key",
-                      "value": "value"
-                    }
-                  ],
-                  "httpBody": null
-                }
-              }
-            ]
-          }
-        ]
+        "key": "",
+        "value": ""
       }
     ],
-    "search": [
+    "cookies": [
       {
-        "request": {
-          "url": "https://google.com/",
-          "method": "get",
-          "headers": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ],
-          "httpBody": null
-        },
-        "separator": "+",
-        "extra": {
-          "commands": [
-            {
-              "commandName": "",
-              "params": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "extraInfo": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ]
-        },
-        "javascriptConfig": {
-          "removeJavascript": true,
-          "loadInWebView": false,
-          "javaScript": ""
-        },
-        "output": [
-          {
-            "cellDesing": "wide7",
-            "orientation": "vertical",
-            "defaultLayout": "wideFull",
-            "paging": "",
-            "section": {
-              "sectionName": "",
-              "separator": false
-            },
-            "layout": null,
-            "data": [
-              {
-                "image": {
-                  "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "",
-                      "value": ""
-                    }
-                  ],
-                  "httpBody": null
-                },
-                "title": "Example Image result",
-                "description": "",
-                "field1": "example Image result",
-                "field2": "",
-                "field3": "",
-                "field4": "",
-                "moduleID": "2384029348",
-                "isChapter": false,
-                "link": {
-                  "url": "https://google.com/?image=",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "key",
-                      "value": "value"
-                    }
-                  ],
-                  "httpBody": null
-                }
-              }
-            ]
-          }
-        ]
+        "key": "",
+        "value": ""
       }
     ],
-    "info": [
+    "headers": [
       {
-        "request": {
-          "url": "empty",
-          "method": "get",
-          "headers": [
-            {
-              "key": "key",
-              "value": "value"
-            }
-          ],
-          "httpBody": null
-        },
-        "extra": {
-          "commands": [
-            {
-              "commandName": "",
-              "params": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "extraInfo": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ]
-        },
-        "javascriptConfig": {
-          "removeJavascript": true,
-          "loadInWebView": false,
-          "javaScript": ""
-        },
-        "output": {
-          "image": {
-            "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
-            "method": "get",
-            "headers": [
+        "key": "",
+        "value": ""
+      }
+    ]
+  },
+  "mainPage": [
+    {
+      "request": {
+        "url": "https://google.com/",
+        "method": "get",
+        "headers": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ],
+        "httpBody": null
+      },
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
               {
                 "key": "",
                 "value": ""
               }
-            ],
-            "httpBody": null
-          },
-          "link": {
-            "url": "https://google.com/?image=",
-            "method": "get",
-            "headers": [
-              {
-                "key": "",
-                "value": ""
-              }
-            ],
-            "httpBody": null
-          },
-          "title": "Title",
-          "description": "description",
-          "moduleID": "",
-          "genres": [
-            "test",
-            "test",
-            "test"
-          ],
-          "field1": "field1",
-          "field2": "field2",
-          "field3": "field3",
-          "field4": "field4",
-          "chapters": [
-            {
-              "chapName": "Example images",
-              "openInWebView": false,
-              "link": {
-                "url": "https://google.com/",
-                "method": "get",
-                "headers": [
-                  {
-                    "key": "key",
-                    "value": "value"
-                  }
-                ],
-                "httpBody": null
-              }
-            }
-          ]
-        }
-      }
-    ],
-    "chapters": [
-      {
-        "request": {
-          "url": "empty",
-          "method": "get",
-          "headers": [
-            {
-              "key": "key",
-              "value": "value"
-            }
-          ],
-          "httpBody": null
-        },
-        "extra": {
-          "commands": [
-            {
-              "commandName": "",
-              "params": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "extraInfo": [
-            {
-              "key": "",
-              "value": ""
-            }
-          ]
-        },
-        "javascriptConfig": {
-          "removeJavascript": true,
-          "loadInWebView": false,
-          "javaScript": ""
-        },
-        "output": {
-          "moduleID": "234234823",
-          "videos": {
-            "needsResolver": [
-              {
-                "resolverIdentifier": "",
-                "link": {
-                  "url": "",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "key",
-                      "value": "value"
-                    }
-                  ],
-                  "httpBody": null
-                }
-              }
-            ],
-            "rawVideo": [
-              {
-                "video": [
-                  {
-                    "videoQuality": "720",
-                    "videoLink": {
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-                      "method": "get",
-                      "headers": [
-                        {
-                          "key": "key",
-                          "value": "value"
-                        }
-                      ],
-                      "httpBody": null
-                    }
-                  }
-                ]
-              }
             ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": ""
+      },
+      "output": [
+        {
+          "cellDesing": "wide7",
+          "orientation": "vertical",
+          "defaultLayout": "wideFull",
+          "paging": "",
+          "section": {
+            "sectionName": "Images Module results",
+            "separator": true
           },
-          "images": [
+          "layout": null,
+          "data": [
             {
-              "url": "https://image.shutterstock.com/image-vector/example-signlabel-features-speech-bubble-260nw-1223219848.jpg",
-              "method": "get",
-              "headers": [
-                {
-                  "key": "key",
-                  "value": "value"
-                }
-              ],
-              "httpBody": null
-            },
-            {
-                "url": "https://osl.ugr.es/CTAN/macros/latex/contrib/incgraph/example.jpg",
+              "image": {
+                "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
                 "method": "get",
                 "headers": [
                   {
-                    "key": "key",
-                    "value": "value"
+                    "key": "",
+                    "value": ""
                   }
                 ],
                 "httpBody": null
               },
-              {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Example_image.png",
+              "title": "Example Image result",
+              "description": "",
+              "field1": "Example Image result",
+              "field2": "",
+              "field3": "",
+              "field4": "",
+              "moduleID": "2384029348",
+              "isChapter": false,
+              "link": {
+                "url": "https://google.com/?image=",
                 "method": "get",
                 "headers": [
                   {
@@ -414,90 +118,177 @@
                 ],
                 "httpBody": null
               }
-          ],
-          "text": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non placerat diam, quis mattis nisl. Nulla facilisi. In ut diam non purus condimentum cursus. Aenean gravida et eros ac pharetra. Morbi quis ante eget elit fringilla porttitor nec eu urna. Cras ligula arcu, posuere a metus vitae, malesuada pharetra lacus. Nullam in ex a dolor mattis ullamcorper. Maecenas in est orci. Vivamus bibendum dignissim varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien diam, condimentum eget accumsan a, egestas commodo leo. Quisque vulputate rhoncus lobortis.In aliquet accumsan velit. Ut vel odio molestie, ornare nisl a, interdum elit. Sed rhoncus varius magna in porta. In hac habitasse platea dictumst. Vivamus mattis molestie sem, eu facilisis orci mattis in. Cras tristique mollis velit a malesuada. Proin accumsan diam lectus, sed tempus arcu porta laoreet. Fusce vehicula tempus quam at mollis. Nam viverra at mi ac ultricies. Praesent eleifend ultrices metus, commodo auctor felis pellentesque eget. Praesent mattis, felis imperdiet cursus porta, ante purus suscipit turpis, vel aliquam metus magna at orci. In dignissim quam quis lacus molestie commodo a ac risus.Nam at rhoncus massa. Proin in libero eget purus finibus dignissim. Nulla rhoncus urna sed libero eleifend suscipit. Vivamus erat nisl, laoreet blandit tristique et, viverra vitae nunc. Nam cursus tristique aliquam. Phasellus ac mattis nisl. Sed augue libero, vestibulum ut cursus vitae, accumsan a nisi. Curabitur hendrerit, leo quis rhoncus ultricies, odio urna hendrerit augue, a tincidunt elit ante eget eros. Vestibulum vitae dui dolor. Aenean quam tortor, lobortis sed tincidunt at, posuere in ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse dapibus augue eu libero sagittis ullamcorper. Ut in mauris eget est blandit malesuada non lacinia justo.Vivamus viverra ac nibh et semper. Sed turpis sapien, interdum ultrices augue eu, sagittis dictum nisl. In id turpis et risus vestibulum lacinia nec vel erat. Etiam hendrerit et augue quis ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida leo sit amet ornare tempus. Fusce cursus condimentum nisl id sollicitudin. Donec mattis nunc id erat finibus mollis.Nulla facilisi. Maecenas mattis magna sem, id pellentesque felis dapibus ac. Mauris eu nulla placerat, sagittis sem cursus, blandit elit. Curabitur pharetra, lectus et lacinia dignissim, lacus neque pharetra mi, ut volutpat odio justo sed est. Morbi sed sapien in leo luctus faucibus. Vestibulum blandit nisl risus, in porta sem sodales et. Phasellus luctus ornare neque. Nulla mattis eleifend bibendum. Donec ultrices maximus elit quis sodales. Nunc non purus eu tortor bibendum venenatis vitae sed augue. Pellentesque malesuada blandit arcu in tempus. Sed convallis mi et ultricies efficitur. Aliquam volutpat erat vitae sagittis condimentum. Phasellus sit amet magna pellentesque, ultricies massa non, aliquam lectus.Sed placerat luctus dui, sit amet bibendum metus. Fusce quis sagittis erat. Vestibulum aliquam malesuada orci at ultricies. Vivamus tempus consequat ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vel erat sem. Maecenas molestie nulla in mauris eleifend tempor. Etiam id ex tristique, faucibus ipsum nec, mollis ipsum. Morbi consectetur bibendum feugiat. Quisque vel ornare purus. Nulla vulputate nunc vel maximus tempus. Mauris auctor justo eget luctus condimentum.Nam dapibus ex in magna porttitor iaculis. Fusce ut quam lacinia, malesuada odio cursus, hendrerit orci. Curabitur tincidunt, ipsum id tincidunt consectetur, nisl dui vulputate ante, vel fermentum purus metus sit amet tortor. Praesent leo mi, faucibus bibendum elit nec, venenatis laoreet felis. Pellentesque ut leo libero. Aliquam laoreet ligula nulla, sit amet pulvinar risus sodales eu. Aliquam et consequat ipsum. Fusce volutpat purus mauris, id lacinia turpis pulvinar eu. Sed."
-          }
+            }
+          ]
         }
+      ]
+    }
+  ],
+  "search": [
+    {
+      "request": {
+        "url": "https://google.com/",
+        "method": "get",
+        "headers": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ],
+        "httpBody": null
       },
-      {
-        "request": {
-          "url": "empty",
+      "separator": "+",
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": ""
+      },
+      "output": [
+        {
+          "cellDesing": "wide7",
+          "orientation": "vertical",
+          "defaultLayout": "wideFull",
+          "paging": "",
+          "section": {
+            "sectionName": "",
+            "separator": false
+          },
+          "layout": null,
+          "data": [
+            {
+              "image": {
+                "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "httpBody": null
+              },
+              "title": "Example Image result",
+              "description": "",
+              "field1": "example Image result",
+              "field2": "",
+              "field3": "",
+              "field4": "",
+              "moduleID": "2384029348",
+              "isChapter": false,
+              "link": {
+                "url": "https://google.com/?image=",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "info": [
+    {
+      "request": {
+        "url": "empty",
+        "method": "get",
+        "headers": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "httpBody": null
+      },
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": ""
+      },
+      "output": {
+        "image": {
+          "url": "https://cdn.business2community.com/wp-content/uploads/2013/09/best-press-release-example.jpg",
           "method": "get",
           "headers": [
-            {
-              "key": "key",
-              "value": "value"
-            }
-          ],
-          "httpBody": null
-        },
-        "extra": {
-          "commands": [
-            {
-              "commandName": "",
-              "params": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            }
-          ],
-          "extraInfo": [
             {
               "key": "",
               "value": ""
             }
-          ]
+          ],
+          "httpBody": null
         },
-        "javascriptConfig": {
-          "removeJavascript": true,
-          "loadInWebView": false,
-          "javaScript": " "
-        },
-        "output": {
-          "videos": {
-            "needsResolver": [
-              {
-                "resolverIdentifier": "",
-                "link": {
-                  "url": "",
-                  "method": "get",
-                  "headers": [
-                    {
-                      "key": "key",
-                      "value": "value"
-                    }
-                  ],
-                  "httpBody": null
-                }
-              }
-            ],
-            "rawVideo": [
-              {
-                "video": [
-                  {
-                    "videoQuality": "720",
-                    "videoLink": {
-                      "url": "",
-                      "method": "get",
-                      "headers": [
-                        {
-                          "key": "key",
-                          "value": "value"
-                        }
-                      ],
-                      "httpBody": null
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          "images": [
+        "link": {
+          "url": "https://google.com/?image=",
+          "method": "get",
+          "headers": [
             {
-              "url": "empty",
+              "key": "",
+              "value": ""
+            }
+          ],
+          "httpBody": null
+        },
+        "title": "Title",
+        "description": "description",
+        "moduleID": "",
+        "genres": [
+          "test",
+          "test",
+          "test"
+        ],
+        "field1": "field1",
+        "field2": "field2",
+        "field3": "field3",
+        "field4": "field4",
+        "chapters": [
+          {
+            "chapName": "Example images",
+            "openInWebView": false,
+            "link": {
+              "url": "https://google.com/",
               "method": "get",
               "headers": [
                 {
@@ -507,29 +298,12 @@
               ],
               "httpBody": null
             }
-          ],
-          "text": {
-            "text": ""
-          }
-        }
-      }
-    ],
-    "moduleResolvers": [
-      {
-        "resolverInfo": {
-          "resolverName": "",
-          "nameMatches": [
-            ""
-          ],
-          "developer": "",
-          "moduleID": "",
-          "resolverVersion": 1,
-          "baseURL": ""
-        },
-        "resolver": [
-          {
-            "request": {
-              "url": "empty",
+          },
+                {
+            "chapName": "Example images 2",
+            "openInWebView": false,
+            "link": {
+              "url": "https://google.com/",
               "method": "get",
               "headers": [
                 {
@@ -538,33 +312,185 @@
                 }
               ],
               "httpBody": null
-            },
-            "extra": {
-              "commands": [
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "request": {
+        "url": "empty",
+        "method": "get",
+        "headers": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "httpBody": null
+      },
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": ""
+      },
+      "output": {
+        "moduleID": "234234823",
+        "videos": {
+          "needsResolver": [
+            {
+              "resolverIdentifier": "",
+              "link": {
+                "url": "",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ],
+          "rawVideo": [
+            {
+              "video": [
                 {
-                  "commandName": "",
-                  "params": [
-                    {
-                      "key": "",
-                      "value": ""
-                    }
-                  ]
-                }
-              ],
-              "extraInfo": [
-                {
-                  "key": "",
-                  "value": ""
+                  "videoQuality": "720",
+                  "videoLink": {
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                    "method": "get",
+                    "headers": [
+                      {
+                        "key": "key",
+                        "value": "value"
+                      }
+                    ],
+                    "httpBody": null
+                  }
                 }
               ]
-            },
-            "javascriptConfig": {
-              "removeJavascript": false,
-              "loadInWebView": false,
-              "javaScript": ""
-            },
-            "output": {
-              "moduleID": "234234823",
+            }
+          ]
+        },
+        "images": [
+          {
+            "url": "https://image.shutterstock.com/image-vector/example-signlabel-features-speech-bubble-260nw-1223219848.jpg",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          },
+          {
+            "url": "https://osl.ugr.es/CTAN/macros/latex/contrib/incgraph/example.jpg",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Example_image.png",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          }
+        ],
+        "text": {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non placerat diam, quis mattis nisl. Nulla facilisi. In ut diam non purus condimentum cursus. Aenean gravida et eros ac pharetra. Morbi quis ante eget elit fringilla porttitor nec eu urna. Cras ligula arcu, posuere a metus vitae, malesuada pharetra lacus. Nullam in ex a dolor mattis ullamcorper. Maecenas in est orci. Vivamus bibendum dignissim varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien diam, condimentum eget accumsan a, egestas commodo leo. Quisque vulputate rhoncus lobortis.In aliquet accumsan velit. Ut vel odio molestie, ornare nisl a, interdum elit. Sed rhoncus varius magna in porta. In hac habitasse platea dictumst. Vivamus mattis molestie sem, eu facilisis orci mattis in. Cras tristique mollis velit a malesuada. Proin accumsan diam lectus, sed tempus arcu porta laoreet. Fusce vehicula tempus quam at mollis. Nam viverra at mi ac ultricies. Praesent eleifend ultrices metus, commodo auctor felis pellentesque eget. Praesent mattis, felis imperdiet cursus porta, ante purus suscipit turpis, vel aliquam metus magna at orci. In dignissim quam quis lacus molestie commodo a ac risus.Nam at rhoncus massa. Proin in libero eget purus finibus dignissim. Nulla rhoncus urna sed libero eleifend suscipit. Vivamus erat nisl, laoreet blandit tristique et, viverra vitae nunc. Nam cursus tristique aliquam. Phasellus ac mattis nisl. Sed augue libero, vestibulum ut cursus vitae, accumsan a nisi. Curabitur hendrerit, leo quis rhoncus ultricies, odio urna hendrerit augue, a tincidunt elit ante eget eros. Vestibulum vitae dui dolor. Aenean quam tortor, lobortis sed tincidunt at, posuere in ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse dapibus augue eu libero sagittis ullamcorper. Ut in mauris eget est blandit malesuada non lacinia justo.Vivamus viverra ac nibh et semper. Sed turpis sapien, interdum ultrices augue eu, sagittis dictum nisl. In id turpis et risus vestibulum lacinia nec vel erat. Etiam hendrerit et augue quis ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida leo sit amet ornare tempus. Fusce cursus condimentum nisl id sollicitudin. Donec mattis nunc id erat finibus mollis.Nulla facilisi. Maecenas mattis magna sem, id pellentesque felis dapibus ac. Mauris eu nulla placerat, sagittis sem cursus, blandit elit. Curabitur pharetra, lectus et lacinia dignissim, lacus neque pharetra mi, ut volutpat odio justo sed est. Morbi sed sapien in leo luctus faucibus. Vestibulum blandit nisl risus, in porta sem sodales et. Phasellus luctus ornare neque. Nulla mattis eleifend bibendum. Donec ultrices maximus elit quis sodales. Nunc non purus eu tortor bibendum venenatis vitae sed augue. Pellentesque malesuada blandit arcu in tempus. Sed convallis mi et ultricies efficitur. Aliquam volutpat erat vitae sagittis condimentum. Phasellus sit amet magna pellentesque, ultricies massa non, aliquam lectus.Sed placerat luctus dui, sit amet bibendum metus. Fusce quis sagittis erat. Vestibulum aliquam malesuada orci at ultricies. Vivamus tempus consequat ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce vel erat sem. Maecenas molestie nulla in mauris eleifend tempor. Etiam id ex tristique, faucibus ipsum nec, mollis ipsum. Morbi consectetur bibendum feugiat. Quisque vel ornare purus. Nulla vulputate nunc vel maximus tempus. Mauris auctor justo eget luctus condimentum.Nam dapibus ex in magna porttitor iaculis. Fusce ut quam lacinia, malesuada odio cursus, hendrerit orci. Curabitur tincidunt, ipsum id tincidunt consectetur, nisl dui vulputate ante, vel fermentum purus metus sit amet tortor. Praesent leo mi, faucibus bibendum elit nec, venenatis laoreet felis. Pellentesque ut leo libero. Aliquam laoreet ligula nulla, sit amet pulvinar risus sodales eu. Aliquam et consequat ipsum. Fusce volutpat purus mauris, id lacinia turpis pulvinar eu. Sed."
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "empty",
+        "method": "get",
+        "headers": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "httpBody": null
+      },
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": " "
+      },
+      "output": {
+        "videos": {
+          "needsResolver": [
+            {
+              "resolverIdentifier": "",
+              "link": {
+                "url": "",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "key",
+                    "value": "value"
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ],
+          "rawVideo": [
+            {
               "video": [
                 {
                   "videoQuality": "720",
@@ -582,102 +508,191 @@
                 }
               ]
             }
-          }
-        ]
-      }
-    ],
-    "responseCodeFunctions": [
-      {
-        "code": 0,
-        "msgTitle": "",
-        "msgBody": "",
-        "type": "normal",
-        "functions": [
+          ]
+        },
+        "images": [
           {
-            "request": {
-              "url": "empty",
-              "method": "get",
-              "headers": [
-                {
-                  "key": "key",
-                  "value": "value"
-                }
-              ],
-              "httpBody": null
-            },
-            "extra": {
-              "commands": [
-                {
-                  "commandName": "",
-                  "params": [
-                    {
-                      "key": "",
-                      "value": ""
-                    }
-                  ]
-                }
-              ],
-              "extraInfo": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            },
-            "javascriptConfig": {
-              "removeJavascript": true,
-              "loadInWebView": false,
-              "javaScript": ""
-            }
+            "url": "empty",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
           }
-        ]
+        ],
+        "text": {
+          "text": ""
+        }
       }
-    ],
-    "helperFunctions": [
-      {
-        "functionName": "example",
-        "msgTitle": "",
-        "msgBody": "",
-        "type": "normal",
-        "functions": [
-          {
-            "request": {
-              "url": "empty",
-              "method": "get",
-              "headers": [
-                {
-                  "key": "key",
-                  "value": "value"
-                }
-              ],
-              "httpBody": null
-            },
-            "extra": {
-              "commands": [
-                {
-                  "commandName": "",
-                  "params": [
+    }
+  ],
+  "moduleResolvers": [
+    {
+      "resolverInfo": {
+        "resolverName": "",
+        "nameMatches": [
+          ""
+        ],
+        "developer": "",
+        "moduleID": "",
+        "resolverVersion": 1,
+        "baseURL": ""
+      },
+      "resolver": [
+        {
+          "request": {
+            "url": "empty",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          },
+          "extra": {
+            "commands": [
+              {
+                "commandName": "",
+                "params": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ]
+              }
+            ],
+            "extraInfo": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          },
+          "javascriptConfig": {
+            "removeJavascript": false,
+            "loadInWebView": false,
+            "javaScript": ""
+          },
+          "output": {
+            "moduleID": "234234823",
+            "video": [
+              {
+                "videoQuality": "720",
+                "videoLink": {
+                  "url": "",
+                  "method": "get",
+                  "headers": [
                     {
-                      "key": "",
-                      "value": ""
+                      "key": "key",
+                      "value": "value"
                     }
-                  ]
+                  ],
+                  "httpBody": null
                 }
-              ],
-              "extraInfo": [
-                {
-                  "key": "",
-                  "value": ""
-                }
-              ]
-            },
-            "javascriptConfig": {
-              "removeJavascript": true,
-              "loadInWebView": false,
-              "javaScript": ""
-            }
+              }
+            ]
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ],
+  "responseCodeFunctions": [
+    {
+      "code": 0,
+      "msgTitle": "",
+      "msgBody": "",
+      "type": "normal",
+      "functions": [
+        {
+          "request": {
+            "url": "empty",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          },
+          "extra": {
+            "commands": [
+              {
+                "commandName": "",
+                "params": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ]
+              }
+            ],
+            "extraInfo": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          },
+          "javascriptConfig": {
+            "removeJavascript": true,
+            "loadInWebView": false,
+            "javaScript": ""
+          }
+        }
+      ]
+    }
+  ],
+  "helperFunctions": [
+    {
+      "functionName": "example",
+      "msgTitle": "",
+      "msgBody": "",
+      "type": "normal",
+      "functions": [
+        {
+          "request": {
+            "url": "empty",
+            "method": "get",
+            "headers": [
+              {
+                "key": "key",
+                "value": "value"
+              }
+            ],
+            "httpBody": null
+          },
+          "extra": {
+            "commands": [
+              {
+                "commandName": "",
+                "params": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ]
+              }
+            ],
+            "extraInfo": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          },
+          "javascriptConfig": {
+            "removeJavascript": true,
+            "loadInWebView": false,
+            "javaScript": ""
+          }
+        }
+      ]
+    }
+  ]
+}
